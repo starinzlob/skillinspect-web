@@ -127,7 +127,7 @@ main { min-height: 100vh; padding: 20px; }
 .masthead-title {
   display: grid;
   align-content: center;
-  gap: 4px;
+  gap: 12px;
   min-width: 0;
 }
 .masthead-pretitle, .eyebrow {
@@ -153,6 +153,7 @@ main { min-height: 100vh; padding: 20px; }
   border-bottom: 1px solid var(--ink);
 }
 .hero-copy { padding: clamp(38px, 5vw, 76px) clamp(28px, 5vw, 78px) 48px 28px; }
+.hero-copy > .eyebrow { margin-bottom: 14px; }
 .hero h2 {
   max-width: 1050px;
   margin: 0;
