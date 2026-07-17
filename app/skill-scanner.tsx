@@ -251,9 +251,16 @@ export function SkillScanner() {
           </div>
           <div className="masthead-row">
             <a className="maker-mark" href="https://github.com/starinzlob/skillinspect" aria-label="SkillInspect GitHub">
-              SI
+              <span className="maker-mark-lens" aria-hidden="true">
+                <span className="maker-mark-star" />
+                <span className="maker-mark-lines">
+                  <i />
+                  <i />
+                  <i />
+                </span>
+              </span>
             </a>
-            <div>
+            <div className="masthead-title">
               <p className="masthead-pretitle">The installation intelligence ledger</p>
               <h1>SkillInspect</h1>
             </div>
